@@ -16,6 +16,6 @@ app.use("", productRouter);
 
 console.log("Updated!")
 
-// app.get('/', (req, res)=>{
-//     res.send('server reacted...')
-// })
+app.get('/', (req, res)=>{
+    res.send('server reacted...')
+})
